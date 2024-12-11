@@ -21,12 +21,12 @@ void loop() {
 
   if (Z <= -19) {
   Serial.print("Cymbal Hit!");
-  delay(10);
+  delay(50);
 }
 
   if (X <= -19) {
   Serial.print("Drum Hit!");
-  delay(10);
+  delay(50);
 }
 
 //   if (Z >= 19) {
